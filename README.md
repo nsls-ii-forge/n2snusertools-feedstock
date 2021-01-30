@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/n2snusertools-feedstock/blob/master/LICENSE.txt)
 
-Summary: User tools for the NSLS-II Science Networki
+Summary: User tools for the NSLS-II Science Network
 
 Current build status
 ====================

@@ -24,7 +24,7 @@ requirements:
     - ldap3
     - prettytable
     - configparser
-    - gssapi
+    - python-gssapi
 
 test:
   imports:

@@ -1,6 +1,6 @@
 {% set name = "N2SNUserTools" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "978890b66835c95e3dd6dd11852676117f4ec6acafe3a36e8e7571144786cf74" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9" %}
 
 package:
   name: {{ name|lower }}
@@ -14,6 +14,15 @@ build:
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - n2sn_add_offline_user = N2SNUserTools.cli:n2sn_add_offline_user
+    - n2sn_add_user = N2SNUserTools.cli:n2sn_add_user
+    - n2sn_list_offline_users = N2SNUserTools.cli:n2sn_list_offline_users
+    - n2sn_list_staff = N2SNUserTools.cli:n2sn_list_staff
+    - n2sn_list_users = N2SNUserTools.cli:n2sn_list_users
+    - n2sn_remove_offline_user = N2SNUserTools.cli:n2sn_remove_offline_user
+    - n2sn_remove_user = N2SNUserTools.cli:n2sn_remove_user
+    - n2sn_search_user = N2SNUserTools.cli:n2sn_search_user
 
 requirements:
   host:

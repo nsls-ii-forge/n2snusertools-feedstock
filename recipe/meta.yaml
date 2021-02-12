@@ -29,7 +29,7 @@ requirements:
     - ldap3
     - prettytable
     - python-gssapi
-    # - pyyaml
+    - pyyaml
 
 test:
   imports:

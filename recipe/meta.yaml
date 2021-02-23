@@ -1,6 +1,6 @@
 {% set name = "N2SNUserTools" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "dc4f29a33d0d486f86fa90e21b27885da831e9f92084900d363f0cac1a06d324" %}
+{% set version = "0.3.4" %}
+{% set sha256 = "3fe798b1f281ae5e3df39cf0a78cb40a5943410ae58f9718dfbdd1d04a9e7430" %}
 
 package:
   name: {{ name|lower }}
